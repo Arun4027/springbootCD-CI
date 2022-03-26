@@ -9,7 +9,7 @@ public class MyController {
 
 	@GetMapping("/test")
 	public ResponseEntity doTest() {
-		return ResponseEntity.ok("Test Ok ! message");
+		return ResponseEntity.ok("Test Ok ! message from Arun");
 	}
 
 }
